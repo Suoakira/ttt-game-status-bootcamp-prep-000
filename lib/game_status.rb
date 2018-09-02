@@ -18,3 +18,4 @@ WIN_COMBINATIONS = [
   
   def won(board)
     win_index1 = WIN_COMBINATIONS[0]
+    win_index1 = WIN_COMBINATIONS[0]
