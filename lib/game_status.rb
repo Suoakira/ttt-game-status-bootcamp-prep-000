@@ -18,5 +18,5 @@ WIN_COMBINATIONS = [
   
   def won(board)
   
-  WIN_COMBINATIONS[0].each |x| puts board(x)
+  WIN_COMBINATIONS[0].each do |x| puts board(x)
 end
