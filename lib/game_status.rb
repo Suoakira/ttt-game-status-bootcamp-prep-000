@@ -17,12 +17,6 @@ WIN_COMBINATIONS = [
   ]
   
   def won(board)
-    win_index1 = WIN_COMBINATIONS[0]
-    win_index2 = WIN_COMBINATIONS[0]
-    win_index3 = WIN_COMBINATIONS[0]
-    win_index1 = WIN_COMBINATIONS[0]
-    win_index1 = WIN_COMBINATIONS[0]
-    win_index1 = WIN_COMBINATIONS[0]
-    win_index1 = WIN_COMBINATIONS[0]
-    win_index1 = WIN_COMBINATIONS[0]
-    win_index1 = WIN_COMBINATIONS[0]
+  
+  WIN_COMBINATIONS[0].each |x| puts "X"
+end
